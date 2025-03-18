@@ -1,5 +1,5 @@
 *.iml
-.gradle
+.gradle/
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -8,8 +8,29 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
 local.properties
+
+# Archivos de compilación
+*.apk
+*.aab
+*.dex
+*.jar
+*.so
+*.o
+*.obj
+*.class
+*.keystore
+
+# Archivos de configuración del entorno
+/.vscode/
+*.log
+
+# Archivos temporales de Gradle
+/.gradle/
+
+# Evitar archivos de configuración de Git
+/.git/
